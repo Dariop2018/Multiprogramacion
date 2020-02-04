@@ -1,0 +1,23 @@
+package mihilo;
+
+
+public class Hilos {
+    public static void main(String[] args){
+        MiHilo h1= new MiHilo();
+        h1.setName("hilo_1");
+        MiHilo h2= new MiHilo();
+        h2.setName("hilo_2");
+        MiHilo h3= new MiHilo();
+        h3.setName("hilo_3");
+        MiHilo h4= new MiHilo();
+        h4.setName("hilo_4");
+        MiHilo h5= new MiHilo();
+        h4.setName("hilo_5");
+        h1.start();
+        h2.start();
+        h3.start();
+        h4.start();  
+        h5.start();
+    }
+    
+}
